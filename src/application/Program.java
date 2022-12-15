@@ -47,11 +47,6 @@ public class Program {
 		System.out.println();
 		System.out.println("Valor total vendido pelo vendedor Logan nos meses 1 e 7 = " + salesLogan1and7);
 		
-		
-		System.out.println();
-		
-		System.out.println();
-	
 		} 
 		
 		catch(IOException e) {
