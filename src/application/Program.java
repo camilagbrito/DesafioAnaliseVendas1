@@ -17,7 +17,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Entre o caminho do arquivo: ");
+		System.out.print("Entre o caminho do arquivo: ");
 		String path = sc.nextLine();
 		
 		try(BufferedReader br = new BufferedReader(new FileReader(path))){
